@@ -10,13 +10,11 @@ import {
   Slide,
 } from "@material-ui/core";
 import { Delete, MoneyOff } from "@material-ui/icons";
-
-// import { ExpenseTrackerContext } from "../../../context/context";
+import { ExpenseTrackerContext } from "../../../context/Context";
 import useStyles from "./styles";
 
 const List = () => {
   const classes = useStyles();
-
   const transactions = [
     {
       id: 1,
