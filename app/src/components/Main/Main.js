@@ -20,10 +20,13 @@ const ExpenseTracker = () => {
 
   return (
     <Card className={classes.root}>
-      {/* <CardHeader title="Expense Tracker" subheader="Powered by Speechly" /> */}
+      {/* <CardHeader align="center" title="TRANSACTION TRACKER" /> */}
       <CardContent>
         <Typography align="center" variant="h5">
-          Balance <br></br>₹{balance.toLocaleString()}
+          Balance
+          <Typography align="center" variant="h4">
+            ₹{balance.toLocaleString()}
+          </Typography>
         </Typography>
         <Typography
           variant="subtitle1"

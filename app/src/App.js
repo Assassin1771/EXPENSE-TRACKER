@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Container, Typography } from "@material-ui/core";
 
 import { SpeechState, useSpeechContext } from "@speechly/react-client";
 import {
@@ -46,9 +46,10 @@ const App = () => {
           <Details title="Expense" />
         </Grid>
       </Grid>
+
       <PushToTalkButtonContainer>
         <PushToTalkButton
-          size="80px"
+          size="70px"
           placement="bottom"
           intro="Push to Add Transaction"
         />
