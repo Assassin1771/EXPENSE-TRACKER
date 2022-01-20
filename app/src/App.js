@@ -52,7 +52,6 @@ const App = () => {
           <br />
           <br />
           <br />
-
           <PushToTalkButton
             size="85px"
             placement="bottom"
