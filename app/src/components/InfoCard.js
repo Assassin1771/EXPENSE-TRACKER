@@ -10,6 +10,8 @@ const InfoCard = () => {
       for {isIncome ? "₹1000 " : "₹500 "}
       in Category {isIncome ? "Salary " : "Travel "}
       for {isIncome ? "Monday " : "Sunday "}
+      <br /> <br />
+      <b>Hold the Spacebar Key to Record Transaction</b>
     </div>
   );
 };
