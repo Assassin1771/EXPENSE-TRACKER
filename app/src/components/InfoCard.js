@@ -11,7 +11,7 @@ const InfoCard = () => {
       in Category {isIncome ? "Salary " : "Travel "}
       for {isIncome ? "Monday " : "Sunday "}
       <br /> <br />
-      <b>Hold Spacebar Key to Record Voice</b>
+      <b>Hold Mic Button or Spacebar Key to Record Voice</b>
     </div>
   );
 };
