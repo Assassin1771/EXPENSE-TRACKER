@@ -12,8 +12,6 @@
 <br>
 <img src="SS/2.png">
 <br>
-<img src="SS/3.png">
-<br>
 <br>
 
 ## Installation and Setup Instructions
