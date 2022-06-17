@@ -25,7 +25,7 @@
 
 ## About The Project
 
-View the live deployed project here <a href="https://money-tracker-2-assassin1771.netlify.app/">(Project Link)</a> .
+View the live deployed project here <a href="https://money-tracker-2-assassin1771.netlify.app/" target="_blank">(Project Link)</a> .
 
 An advanced voice powered application, which can be used to keep track of all your incomes and expenses. It also provides a graphical representation of all your transactions. User can add as many transactions as they want and get a detailed visual representation of how their transactions look like.
 
