@@ -11,7 +11,7 @@ const DetailsCard = ({ title, subheader }) => {
 
   return (
     <Card className={title === "Income" ? classes.income : classes.expense}>
-      <CardHeader title={title} subheader={subheader} />
+      <CardHeader title={title.toUpperCase()} subheader={subheader} />
       <CardContent>
         <Typography variant="h4">₹{total.toLocaleString()}</Typography>
         <Doughnut data={chartData} />

@@ -23,7 +23,7 @@ const ExpenseTracker = () => {
       {/* <CardHeader align="center" title="TRANSACTION TRACKER" /> */}
       <CardContent>
         <Typography align="center" variant="h5">
-          Balance
+          BALANCE
           <Typography align="center" variant="h4">
             ₹{balance.toLocaleString()}
           </Typography>
