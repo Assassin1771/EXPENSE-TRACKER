@@ -1,5 +1,7 @@
   <h1 align="center">MONEY TRACKER</h1>
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.loom.com/share/fbe9fccf1cc940bc819362cc0f31f95d)
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
