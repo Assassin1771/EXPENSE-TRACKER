@@ -1,5 +1,6 @@
   <h1 align="center">MONEY TRACKER</h1>
 
+<img src="/SS/2.png">
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
