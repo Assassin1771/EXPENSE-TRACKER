@@ -28,4 +28,19 @@ export default makeStyles((theme) => ({
       // marginTop: "100px",
     },
   },
+
+  text: {
+    backgroundColor: "white",
+    padding: "5px",
+    borderRadius: "10px",
+    fontFamily: "Times New Roman",
+  },
+
+  button: {
+    fontSize: "15px",
+    backgroundColor: "#bdb9b9",
+    border: "none",
+    borderRadius: "10px",
+    marginLeft: "5px",
+  },
 }));

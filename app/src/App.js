@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import { Grid, Container, Typography } from "@material-ui/core";
+import React, { useState, useEffect, useRef } from "react";
+import { Grid, Container, Typography, Button } from "@material-ui/core";
 
 import { SpeechState, useSpeechContext } from "@speechly/react-client";
 import {
@@ -15,6 +15,13 @@ const App = () => {
   const { speechState } = useSpeechContext();
   const main = useRef(null);
 
+  const [display, setDisplay] = useState(true);
+  const [buttonColor, setButtonColor] = useState("red");
+
+  var handleDisplay = () => {
+    setDisplay(false);
+  };
+
   const executeScroll = () => main.current.scrollIntoView();
 
   useEffect(() => {
@@ -25,6 +32,19 @@ const App = () => {
 
   return (
     <div>
+      {display ? (
+        <div style={{ marginTop: "20px", marginLeft: "10px" }}>
+          <Typography className={classes.text} variant="h7">
+            Remove Demo Transactions before adding new Transactions
+            <button className={classes.button} onClick={handleDisplay}>
+              x
+            </button>
+          </Typography>
+
+          <div></div>
+        </div>
+      ) : null}
+
       <Grid
         className={classes.grid}
         container
