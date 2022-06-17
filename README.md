@@ -1,6 +1,5 @@
   <h1 align="center">MONEY TRACKER</h1>
 
-<img src="/SS/2.png">
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -34,6 +33,14 @@ Project Use Cases:
 
 - Its very important for everyone to manage their finances and our project helps in achieving that.
 - There are a lot of Income and Expense Categories so that the user can easily differentiate their earnings and spendings.
+
+<p align="center">
+<img height="400px" width="800px" src="/SS/3.png">
+  <br>
+  <img height="400px" width="800px" src="/SS/4.png">
+</p>
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
