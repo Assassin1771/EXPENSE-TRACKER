@@ -53,6 +53,7 @@ Various different technologies, frameworks and tools used in the building of thi
 - [React.js](https://reactjs.org/)
 - [Material UI](https://mui.com/)
 - [Speechly](https://www.speechly.com/)
+- [Netlify](https://www.netlify.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -72,7 +73,7 @@ This is an example of how to list things you need to use the software.
 
 ### Installation
 
-1. Get a free API Key for Voice Integration in your project at [Speechly](https://www.speechly.com/) .
+1. Get a free API Key for Voice Integration in your project at [Speechly](https://www.speechly.com/).
 2. Clone the repository
    ```sh
    git clone https://github.com/Assassin1771/MONEY-TRACKER.git
